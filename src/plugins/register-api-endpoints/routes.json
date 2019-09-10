@@ -139,18 +139,6 @@
     "list": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        },
         "subject_type": {
           "enum": [
             "user",
@@ -2268,15 +2256,6 @@
     "list": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "role": {
           "enum": [
             "admin",
@@ -2284,9 +2263,6 @@
             "member",
             "owner"
           ],
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2300,20 +2276,8 @@
     "listBranches": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2330,23 +2294,11 @@
         "kind": {
           "type": "string"
         },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
         "pattern": {
-          "type": "string"
-        },
-        "q": {
           "type": "string"
         },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2364,20 +2316,8 @@
           "required": true,
           "type": "string"
         },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2397,20 +2337,8 @@
         "include": {
           "type": "string"
         },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2432,20 +2360,8 @@
         "include": {
           "type": "string"
         },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2464,24 +2380,12 @@
         "include": {
           "type": "string"
         },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
           "type": "string"
         },
         "revision": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2500,24 +2404,12 @@
         "include": {
           "type": "string"
         },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
           "type": "string"
         },
         "revision": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2534,20 +2426,8 @@
           "required": true,
           "type": "string"
         },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2561,20 +2441,8 @@
     "listComponents": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2588,20 +2456,8 @@
     "listDefaultReviewers": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2614,20 +2470,8 @@
     "listDeployKeys": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2641,20 +2485,8 @@
     "listDeployments": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2671,20 +2503,8 @@
         "ignore_whitespace": {
           "type": "boolean"
         },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "spec": {
@@ -2702,20 +2522,8 @@
     "listDownloads": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2728,20 +2536,8 @@
     "listEnvironments": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2755,24 +2551,12 @@
     "listFileHistory": {
       "method": "GET",
       "params": {
-        "fields": {
-          "type": "string"
-        },
         "node": {
           "required": true,
           "type": "string"
         },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
         "path": {
           "required": true,
-          "type": "string"
-        },
-        "q": {
           "type": "string"
         },
         "renames": {
@@ -2780,9 +2564,6 @@
         },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2796,20 +2577,8 @@
     "listForks": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2826,15 +2595,6 @@
         "after": {
           "type": "string"
         },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "role": {
           "enum": [
             "admin",
@@ -2842,9 +2602,6 @@
             "member",
             "owner"
           ],
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         }
       },
@@ -2858,20 +2615,8 @@
           "required": true,
           "type": "integer"
         },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2889,20 +2634,8 @@
           "required": true,
           "type": "string"
         },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2920,20 +2653,8 @@
           "required": true,
           "type": "string"
         },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2947,20 +2668,8 @@
     "listIssues": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -2974,20 +2683,8 @@
     "listMilestones": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3004,20 +2701,8 @@
     "listPipelineKnownHosts": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3031,20 +2716,8 @@
     "listPipelines": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3058,20 +2731,8 @@
     "listPipelineScheduleExecutions": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3085,20 +2746,8 @@
     "listPipelineSchedules": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3112,24 +2761,12 @@
     "listPipelineSteps": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
         "pipeline_uuid": {
           "required": true,
           "type": "string"
         },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3143,20 +2780,8 @@
     "listPipelineVariables": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3170,24 +2795,12 @@
     "listPullRequestActivities": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
         "pull_request_id": {
           "required": true,
           "type": "integer"
         },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3200,20 +2813,8 @@
     "listPullRequestActivitiesForRepo": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3226,24 +2827,12 @@
     "listPullRequestComments": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
         "pull_request_id": {
           "required": true,
           "type": "integer"
         },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3257,24 +2846,12 @@
     "listPullRequestCommits": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
         "pull_request_id": {
           "required": true,
           "type": "string"
         },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3287,20 +2864,8 @@
     "listPullRequests": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "state": {
@@ -3330,20 +2895,8 @@
           "required": true,
           "type": "string"
         },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3357,24 +2910,12 @@
     "listPullRequestStatuses": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
         "pull_request_id": {
           "required": true,
           "type": "integer"
         },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3388,20 +2929,8 @@
     "listRefs": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3415,20 +2944,8 @@
     "listTags": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3442,20 +2959,8 @@
     "listVersions": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3469,20 +2974,8 @@
     "listWatchers": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3495,20 +2988,8 @@
     "listWebhooks": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3559,24 +3040,12 @@
           "required": true,
           "type": "string"
         },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
         "path": {
           "required": true,
           "type": "string"
         },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -3596,20 +3065,8 @@
           ],
           "type": "string"
         },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -4298,24 +3755,12 @@
     "list": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "role": {
           "enum": [
             "owner",
             "contributor",
             "member"
           ],
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         }
       },
@@ -4327,18 +3772,6 @@
       "params": {
         "encoded_id": {
           "required": true,
-          "type": "string"
-        },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -4356,18 +3789,6 @@
           "required": true,
           "type": "string"
         },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        },
         "username": {
           "required": true,
           "type": "string"
@@ -4379,24 +3800,12 @@
     "listForUser": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "role": {
           "enum": [
             "owner",
             "contributor",
             "member"
           ],
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -4413,18 +3822,6 @@
       "params": {
         "encoded_id": {
           "required": true,
-          "type": "string"
-        },
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -4716,24 +4113,12 @@
     "list": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "role": {
           "enum": [
             "admin",
             "contributor",
             "member"
           ],
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         }
       },
@@ -4743,18 +4128,6 @@
     "listFollowers": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        },
         "username": {
           "required": true,
           "type": "string"
@@ -4766,18 +4139,6 @@
     "listFollowing": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        },
         "username": {
           "required": true,
           "type": "string"
@@ -4789,18 +4150,6 @@
     "listPermissions": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        },
         "username": {
           "required": true,
           "type": "string"
@@ -4812,20 +4161,8 @@
     "listPermissionsForRepo": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
         "repo_slug": {
           "required": true,
-          "type": "string"
-        },
-        "sort": {
           "type": "string"
         },
         "username": {
@@ -4839,18 +4176,6 @@
     "listPermissionsForRepos": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        },
         "username": {
           "required": true,
           "type": "string"
@@ -4862,18 +4187,6 @@
     "listPipelineVariables": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        },
         "username": {
           "required": true,
           "type": "string"
@@ -4885,18 +4198,6 @@
     "listProjects": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        },
         "username": {
           "required": true,
           "type": "string"
@@ -4908,18 +4209,6 @@
     "listRepositories": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        },
         "username": {
           "required": true,
           "type": "string"
@@ -4933,18 +4222,6 @@
     "listWebhooks": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        },
         "username": {
           "required": true,
           "type": "string"
@@ -4959,12 +4236,6 @@
       },
       "method": "GET",
       "params": {
-        "page": {
-          "type": "integer"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
         "search_query": {
           "required": true,
           "type": "string"
@@ -5051,57 +4322,15 @@
     },
     "listEmails": {
       "method": "GET",
-      "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        }
-      },
       "url": "/user/emails"
     },
     "listPermissionsForRepos": {
       "method": "GET",
-      "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        }
-      },
       "returns": "PaginatedRepositoryPermissions",
       "url": "/user/permissions/repositories"
     },
     "listPermissionsForTeams": {
       "method": "GET",
-      "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        }
-      },
       "returns": "PaginatedTeamPermissions",
       "url": "/user/permissions/teams"
     }
@@ -5250,18 +4479,6 @@
       "deprecated": true,
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        },
         "username": {
           "required": true,
           "type": "string"
@@ -5274,18 +4491,6 @@
       "deprecated": true,
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        },
         "username": {
           "required": true,
           "type": "string"
@@ -5297,18 +4502,6 @@
     "listPipelineVariables": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        },
         "username": {
           "required": true,
           "type": "string"
@@ -5320,18 +4513,6 @@
     "listRepositories": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        },
         "username": {
           "required": true,
           "type": "string"
@@ -5345,18 +4526,6 @@
     "listSshKeys": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        },
         "username": {
           "required": true,
           "type": "string"
@@ -5368,18 +4537,6 @@
     "listWebhooks": {
       "method": "GET",
       "params": {
-        "page": {
-          "type": "string"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
-        "q": {
-          "type": "string"
-        },
-        "sort": {
-          "type": "string"
-        },
         "username": {
           "required": true,
           "type": "string"
@@ -5394,12 +4551,6 @@
       },
       "method": "GET",
       "params": {
-        "page": {
-          "type": "integer"
-        },
-        "pagelen": {
-          "type": "integer"
-        },
         "search_query": {
           "required": true,
           "type": "string"
